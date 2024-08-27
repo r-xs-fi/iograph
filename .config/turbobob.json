@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "IOGraph",
+	"meta": {
+		"description": "Container image for IOGraph - application that turns mouse movements into modern art.",
+		"website": "https://iographica.com/"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/iograph", "platforms": ["linux/amd64"], "tag_latest": true }
+	]
+}

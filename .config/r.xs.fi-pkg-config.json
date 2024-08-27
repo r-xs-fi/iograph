@@ -1,0 +1,15 @@
+{
+	"usage_examples": [
+		{
+			"title": "Start",
+			"cmd": "",
+			"example_output": "MANIFEST READING\n/usr/bin/IOGraph.jar\nJar manifest. 2\nrsrc:META-INF/MANIFEST.MF\nrsrc:META-INF/MANIFEST.MF\njava.util.jar.Manifest@c828f095\nSpecification Version: 1.0.3\nAug 27, 2024 12:22:48 PM java.util.prefs.FileSystemPreferences$1 run\nINFO: Created user preferences directory.",
+			"docker_opts": ["--env=DISPLAY", "--env=XAUTHORITY=/Xauthority", "--volume=\"$XAUTHORITY\":/Xauthority", "--volume=/tmp/.X11-unix:/tmp/.X11-unix", "--volume=$(pwd):/workspace"]
+		}
+	],
+	"not_building_for_platforms_because": {
+		"linux/arm64": "Prebuilt image not available.",
+		"linux/arm/v7": "Prebuilt image not available.",
+		"linux/riscv64": "Prebuilt image not available."
+	}
+}
