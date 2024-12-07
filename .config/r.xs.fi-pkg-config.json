@@ -1,4 +1,5 @@
 {
+	"supply_chain_descriptor": "prebuilt-binaries:https://github.com/anatolyzenkov/IOGraph",
 	"usage_examples": [
 		{
 			"title": "Start",
